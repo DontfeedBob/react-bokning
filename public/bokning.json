@@ -1,0 +1,275 @@
+{
+  "restaurant": {
+    "restaurantId": "RST-ALV-01",
+    "name": "Alv Bistro",
+    "timezone": "Europe/Stockholm",
+    "currency": "SEK",
+    "acceptsDeposit": true
+  },
+  "tables": [
+    {
+      "tableId": "T-01",
+      "seats": 2,
+      "area": "window",
+      "isAccessible": true,
+      "minSpend": 0,
+      "reservations": [
+        {
+          "reservationId": "R-3101",
+          "createdAt": "2026-01-09T11:12:40+01:00",
+          "status": "confirmed",
+          "guestCount": 2,
+          "timeSlot": {
+            "start": "2026-02-02T18:00:00+01:00",
+            "end": "2026-02-02T20:00:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-701",
+            "fullName": "Mira Sjögren",
+            "phone": "+46-70-381-92-14",
+            "email": "mira.sjogren@exempel.se"
+          },
+          "preferences": {
+            "occasion": "anniversary",
+            "allergyNote": "Ingen mjölkprotein, tack.",
+            "needsHighChair": false
+          },
+          "deposit": {
+            "required": true,
+            "amount": 150,
+            "paid": true,
+            "paidAt": "2026-01-09T11:15:02+01:00",
+            "reference": "DEP-A91K4"
+          }
+        },
+        {
+          "reservationId": "R-3102",
+          "createdAt": "2026-01-10T09:05:13+01:00",
+          "status": "confirmed",
+          "guestCount": 1,
+          "timeSlot": {
+            "start": "2026-02-02T20:30:00+01:00",
+            "end": "2026-02-02T22:30:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-702",
+            "fullName": "Hugo Malm",
+            "phone": "+46-73-992-41-06",
+            "email": "hugo.malm@exempel.se"
+          },
+          "preferences": {
+            "occasion": "solo_dinner",
+            "allergyNote": "Ingen koriander.",
+            "needsHighChair": false
+          },
+          "deposit": {
+            "required": false,
+            "amount": 0,
+            "paid": false,
+            "reference": "DEP-P2Z8N"
+          }
+        }
+      ]
+    },
+    {
+      "tableId": "T-02",
+      "seats": 4,
+      "area": "main_floor",
+      "isAccessible": false,
+      "minSpend": 200,
+      "reservations": [
+        {
+          "reservationId": "R-3201",
+          "createdAt": "2026-01-12T19:03:11+01:00",
+          "status": "confirmed",
+          "guestCount": 4,
+          "timeSlot": {
+            "start": "2026-02-03T18:00:00+01:00",
+            "end": "2026-02-03T20:00:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-703",
+            "fullName": "Noah Vik",
+            "phone": "+46-73-640-55-08",
+            "email": "noah.vik@exempel.se"
+          },
+          "preferences": {
+            "occasion": "team_dinner",
+            "allergyNote": "Skaldjur undviks.",
+            "needsHighChair": false
+          },
+          "deposit": {
+            "required": false,
+            "amount": 0,
+            "paid": false,
+            "reference": "DEP-0Q7X2"
+          }
+        },
+        {
+          "reservationId": "R-3202",
+          "createdAt": "2026-01-13T07:44:58+01:00",
+          "status": "confirmed",
+          "guestCount": 3,
+          "timeSlot": {
+            "start": "2026-02-03T20:30:00+01:00",
+            "end": "2026-02-03T22:30:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-704",
+            "fullName": "Selma Ahlén",
+            "phone": "+46-76-550-03-27",
+            "email": "selma.ahlen@exempel.se"
+          },
+          "preferences": {
+            "occasion": "late_supper",
+            "allergyNote": "Vegetariskt (ej svamp).",
+            "needsHighChair": false
+          },
+          "deposit": {
+            "required": true,
+            "amount": 200,
+            "paid": false,
+            "dueBy": "2026-01-20T23:59:00+01:00",
+            "reference": "DEP-7VJ3C"
+          }
+        }
+      ]
+    },
+    {
+      "tableId": "T-03",
+      "seats": 6,
+      "area": "booth",
+      "isAccessible": true,
+      "minSpend": 500,
+      "reservations": [
+        {
+          "reservationId": "R-3301",
+          "createdAt": "2026-01-18T08:41:29+01:00",
+          "status": "confirmed",
+          "guestCount": 6,
+          "timeSlot": {
+            "start": "2026-02-06T18:00:00+01:00",
+            "end": "2026-02-06T20:00:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-705",
+            "fullName": "Lina Ekdal",
+            "phone": "+46-76-112-90-33",
+            "email": "lina.ekdal@exempel.se"
+          },
+          "preferences": {
+            "occasion": "birthday",
+            "allergyNote": "Celiaki (glutenfritt).",
+            "needsHighChair": true
+          },
+          "deposit": {
+            "required": true,
+            "amount": 300,
+            "paid": false,
+            "dueBy": "2026-01-25T23:59:00+01:00",
+            "reference": "DEP-6M2P9"
+          }
+        },
+        {
+          "reservationId": "R-3302",
+          "createdAt": "2026-01-19T12:26:07+01:00",
+          "status": "confirmed",
+          "guestCount": 5,
+          "timeSlot": {
+            "start": "2026-02-06T20:30:00+01:00",
+            "end": "2026-02-06T22:30:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-706",
+            "fullName": "Vera Sten",
+            "phone": "+46-70-844-19-62",
+            "email": "vera.sten@exempel.se"
+          },
+          "preferences": {
+            "occasion": "reunion",
+            "allergyNote": "Laktosfritt önskas.",
+            "needsHighChair": false
+          },
+          "deposit": {
+            "required": true,
+            "amount": 250,
+            "paid": true,
+            "paidAt": "2026-01-19T12:28:40+01:00",
+            "reference": "DEP-Q8R1H"
+          }
+        }
+      ]
+    },
+    {
+      "tableId": "T-04",
+      "seats": 8,
+      "area": "private_room",
+      "isAccessible": false,
+      "minSpend": 1200,
+      "reservations": [
+        {
+          "reservationId": "R-3401",
+          "createdAt": "2026-01-22T14:58:05+01:00",
+          "status": "cancelled",
+          "guestCount": 8,
+          "timeSlot": {
+            "start": "2026-02-08T18:00:00+01:00",
+            "end": "2026-02-08T20:00:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-707",
+            "fullName": "Arvid Nyman",
+            "phone": "+46-72-509-18-77",
+            "email": "arvid.nyman@exempel.se"
+          },
+          "preferences": {
+            "occasion": "family_gathering",
+            "allergyNote": "Nötter kan ej förekomma.",
+            "needsHighChair": false
+          },
+          "cancellation": {
+            "cancelledAt": "2026-01-24T09:10:00+01:00",
+            "reason": "Sjukdom i sällskapet",
+            "feeCharged": 0
+          }
+        },
+        {
+          "reservationId": "R-3402",
+          "createdAt": "2026-01-23T17:21:49+01:00",
+          "status": "confirmed",
+          "guestCount": 7,
+          "timeSlot": {
+            "start": "2026-02-08T20:30:00+01:00",
+            "end": "2026-02-08T22:30:00+01:00"
+          },
+          "durationMinutes": 120,
+          "guest": {
+            "guestId": "G-708",
+            "fullName": "Isak Norén",
+            "phone": "+46-73-118-07-55",
+            "email": "isak.noren@exempel.se"
+          },
+          "preferences": {
+            "occasion": "promotion",
+            "allergyNote": "Ingen rå lök.",
+            "needsHighChair": false
+          },
+          "deposit": {
+            "required": true,
+            "amount": 400,
+            "paid": false,
+            "dueBy": "2026-01-30T23:59:00+01:00",
+            "reference": "DEP-3D6LW"
+          }
+        }
+      ]
+    }
+  ]
+}
